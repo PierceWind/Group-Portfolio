@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+     <meta charset="utf-8" name="homepage" content=width=device-width, initial-scale=1 >
+        <link rel="stylesheet" type="text/css" href="contact.css" media="screen"/> 
+    <div class="topnav" id="myTopnav">
+        <img class="logo" src="https://i.ibb.co/3k2rcQJ/Group-Proj-LOGO.jpg" alt="GroupLogo" href="index.html">
+        <h1> Group Portfolio </h1>
+        <a href="index.html">Home</a>
+        <a href="school.html">School</a>
+        <a href="program.html">Program</a>
+        <div class="dropdown">
+            <button class="dropbtn">About Us 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a href="abalos.html">Abalos</a>
+            <a href="bagobe.html">Bagobe</a>
+            <a href="bataller.html">Bataller</a>
+            <a href="gaborno.html">Gaborno</a>
+            </div>
+        </div> 
+        <a href="blog.html">2021 Blog</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+        }
+    </script>
+</head> 
+<body>
+    <br><br>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <br>
+                <h2 class="title"> We Appreciate Whatever Your Feedback Is </h2>
+            <div class="container">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="city">City</label>
+                <select id="city" name="city">
+                <option value="Las Piñas">Las Piñas</option>
+                <option value="Parañaque">Parañaque</option>
+                <option value="Cavite">Cavite</option>
+                <option value="Noveleta">Noveleta</option>
+                <option value="Makati">Makati</option>
+                <option value="Dasmariñas">Dasmariñas</option>
+                <option value="Mandaluyong">Mandaluyong</option>
+                <option value="Carmona">Carmona</option>
+                <option value="Manila">Manila</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                <a button class = "submit" href = "mailto:jerusamae.abalos027@gmail.com?subject = Feedback&body = Message"> <b> Submit</b> </a>
+            </form>
+            <br>
+            </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <br>
+                <h2 class="title" style="color:#5ccae6"> Explore The Campus</h2>
+            <div class="container">
+                <div class ="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15453.583408703638!2d120.9775!3d14.4619444!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6bc9468dea5b8ab!2sDr.%20Filemon%20C.%20Aguilar%20Information%20Technology%20Training%20Institute!5e0!3m2!1sen!2sph!4v1641954481062!5m2!1sen!2sph" width="600" height="1000" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>    
+            </div>
+            </div>
+        </div>
+
+        <div class = "column">
+            <div class="card">
+                <div class="container">
+                <div class= "connect"> 
+                    <h2 class="title"> Connect With Us </h2>
+                    <a href = "https://www.facebook.com/dfcaittiregistrar" target = "blank">
+                    <img src="https://i.ibb.co/pz9bNgd/DFCAMCLP-IT-CAMPUS-LOGO.png" > </a>
+                    <a href = "https://www.facebook.com/jerusa.penarubia/" target="blank">
+                    <img src = "https://i.ibb.co/0cDrkhf/Group-proj-IMAGE.png" > </a>
+                    <a href = "https://web.facebook.com/reyster12345" target="blank">
+                    <img src = "https://i.ibb.co/37hzXv2/Group-proj-IMAGE-bagobe.png"> </a>
+                    <a href = "https://web.facebook.com/mark.bataller.73" target="blank">
+                    <img src = "https://i.ibb.co/c3Vcszj/Group-proj-IMAGE-bataller.png"> </a>
+                    <a href="https://www.facebook.com/aaron.gaborno.9" target="blank">
+                    <img src = "https://i.ibb.co/SBZzC2M/Group-proj-IMAGE-gaborno.png"></a> 
+                </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    
+</body>
+<br><br>
+<footer>
+    <div class = "footer">
+        <h2> Final Project </h2>
+        <p> Abalos | Bagobe | Bataller | Gaborno</p>
+        <p> ©2021 ITE105
+        <br>
+    </div>
+</footer>
+</html>
